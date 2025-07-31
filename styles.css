@@ -1,1 +1,53 @@
-/* your code */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.stats-table {
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.stats-table thead {
+  background-color: #225b89;
+  color: white;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.stats-table tbody tr:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+.stats-table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.stats-table th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.stats-table th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.stats-table tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.stats-table tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+.stats-table td {
+  white-space: nowrap;
+}
